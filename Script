@@ -1,4 +1,4 @@
-var likeElements = document.querySelectorAll('.coreSpriteHeartOpen');
+var likeElements = document.querySelectorAll('star96');
 var currentTimeout = 0;
 
 function getRandomTimeout() {
