@@ -1,0 +1,14 @@
+Code
+<body>
+<div align="center">
+<p><img id="main" src="image/img1.jpg" width="500" height="300" /></p>
+<p><img src="image/image/img1.jpg" width="150" height="100" onclick="showPic(this.src)" /><img src="image/img2.jpg" width="150" height="100" onclick="showPic(this.src)" /><img src="image/img3.jpg" width="150" height="100" onclick="showPic(this.src)" /><img src="image/img4.jpg" width="150" height="100" onclick="showPic(this.src)" /></p>
+</div>
+</body>
+</html>
+<script>
+function showPic(newsrc){
+mainpic=document.getElementById("main");
+mainpic.src=newsrc;
+}
+</script>
